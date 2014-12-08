@@ -76,3 +76,11 @@ the new format.
 You can specify the version 1 filename to load with
 ``--legacy-file=<filename>``, and the version 2 filename with
 ``--file=<filename>``.
+
+
+Features which must be added :
+===================================
+- Manage differents task list which will be in a directory .todo2_dir. All lists
+will be in JSON and could be selected with -l option.
+- Default list loaded (when todo2 -a "tasks" is typed) could be changed with the
+option --default-list.
